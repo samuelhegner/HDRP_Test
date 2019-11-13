@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29b00527f85bb3346a4d2cb710971587, type: 3}
   m_Name: VolumetricFog
   m_EditorClassIdentifier: 
-  active: 0
+  active: 1
   m_AdvancedMode: 0
   colorMode:
     m_OverrideState: 0
@@ -163,7 +163,7 @@ MonoBehaviour:
   cascadeShadowBorder3:
     m_OverrideState: 1
     m_Value: 0
---- !u!114 &-4352789007523031258
+--- !u!114 &-2152422379379882166
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -173,37 +173,37 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3df29e7cc05fbec4aa43e06ea875565d, type: 3}
-  m_Name: 
+  m_Name: ProceduralSky
   m_EditorClassIdentifier: 
   active: 1
   m_AdvancedMode: 0
   rotation:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 0
     min: 0
     max: 360
   skyIntensityMode:
-    m_OverrideState: 1
-    m_Value: 0
-  exposure:
     m_OverrideState: 0
     m_Value: 0
+  exposure:
+    m_OverrideState: 1
+    m_Value: 1.31
   multiplier:
     m_OverrideState: 0
     m_Value: 1
     min: 0
   upperHemisphereLuxValue:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 1
     min: 0
   desiredLuxValue:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 20000
   updateMode:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 0
   updatePeriod:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 0
     min: 0
   includeSunInBaking:
@@ -211,28 +211,28 @@ MonoBehaviour:
     m_Value: 0
   sunSize:
     m_OverrideState: 1
-    m_Value: 0.073
+    m_Value: 0.04
     min: 0
     max: 1
   sunSizeConvergence:
     m_OverrideState: 1
-    m_Value: 4.76
+    m_Value: 5
     min: 1
     max: 10
   atmosphereThickness:
     m_OverrideState: 1
-    m_Value: 0.74
+    m_Value: 1.8
     min: 0
     max: 5
   skyTint:
     m_OverrideState: 1
-    m_Value: {r: 1, g: 0.6674955, b: 0, a: 1}
+    m_Value: {r: 1, g: 0.83124816, b: 0.5990566, a: 1}
     hdr: 0
     showAlpha: 1
     showEyeDropper: 1
   groundColor:
-    m_OverrideState: 1
-    m_Value: {r: 0.072891034, g: 0.38679248, b: 0.009122463, a: 1}
+    m_OverrideState: 0
+    m_Value: {r: 0.369, g: 0.349, b: 0.341, a: 1}
     hdr: 0
     showAlpha: 1
     showEyeDropper: 1
@@ -254,9 +254,9 @@ MonoBehaviour:
   components:
   - {fileID: -4883420792187914824}
   - {fileID: 8790367065231989209}
-  - {fileID: -4352789007523031258}
   - {fileID: -8361828846913380197}
   - {fileID: -9065778215154364972}
+  - {fileID: -2152422379379882166}
 --- !u!114 &8790367065231989209
 MonoBehaviour:
   m_ObjectHideFlags: 3
